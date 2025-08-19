@@ -1,0 +1,67 @@
+/* Background with a subtle news-style texture */
+body {
+    font-family: 'Georgia', serif;
+    background: url("https://www.transparenttextures.com/patterns/newspaper.png");
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Stylish headline */
+h1 {
+    text-align: center;
+    color: #222;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* News card styling */
+.news-card {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 750px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect */
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Title */
+.news-card h2 {
+    margin: 0 0 10px;
+    color: #222;
+    font-size: 1.5rem;
+}
+
+/* Description */
+.news-card p {
+    color: #555;
+    font-size: 1rem;
+}
+
+/* Links */
+.news-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ff416c;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.news-card a:hover {
+    color: #ff4b2b;
+    text-decoration: underline;
+}
+
